@@ -27,6 +27,11 @@ namespace Tyuiu.ElsufevMP.Sprint6.Task1.V7.Test
             wait[3] = 7.90;
             wait[4] = 15.88;
             wait[5] = 2;
+            wait[6] = 4.35;
+            wait[7] = 5.63;
+            wait[8] = 6.49;
+            wait[9] = 6.49;
+            wait[10] = 6.32;
 
             double[] res;
             res = new double[len];
