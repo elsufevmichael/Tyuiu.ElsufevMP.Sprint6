@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{943CDC13-2BFB-4B38-AAD1-CED3F93F0777}</ProjectGuid>
+    <ProjectGuid>{20803374-8185-4B1E-8D9E-A1D716466EA0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Tyuiu.ElsufevMP.Sprint6.Task3.V9</RootNamespace>
-    <AssemblyName>Tyuiu.ElsufevMP.Sprint6.Task3.V9</AssemblyName>
+    <RootNamespace>Tyuiu.ElsufevMP.Sprint6.Task4.V29</RootNamespace>
+    <AssemblyName>Tyuiu.ElsufevMP.Sprint6.Task4.V29</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -80,9 +81,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.ElsufevMP.Sprint6.Task3.V9.Lib\Tyuiu.ElsufevMP.Sprint6.Task3.V9.Lib.csproj">
-      <Project>{a4044bd4-4e48-48c3-af5d-faf0c5a3ee79}</Project>
-      <Name>Tyuiu.ElsufevMP.Sprint6.Task3.V9.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.ElsufevMP.Sprint6.Task4.V29.Lib\Tyuiu.ElsufevMP.Sprint6.Task4.V29.Lib.csproj">
+      <Project>{db5d099d-2228-47da-aeed-c37a2be2cd31}</Project>
+      <Name>Tyuiu.ElsufevMP.Sprint6.Task4.V29.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
