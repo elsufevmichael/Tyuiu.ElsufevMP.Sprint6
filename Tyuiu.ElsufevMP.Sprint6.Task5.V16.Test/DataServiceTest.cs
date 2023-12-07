@@ -37,7 +37,7 @@ namespace Tyuiu.ElsufevMP.Sprint6.Task5.V16.Test
             wait[4] = 13.83;
             wait[5] = 12.76;
             wait[6] = 8.86;
-
+             
             double[] res;
             res = new double[ds.len];
             res = ds.LoadFromDataFile(path);
