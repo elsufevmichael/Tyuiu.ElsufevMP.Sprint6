@@ -12,8 +12,7 @@ namespace Tyuiu.ElsufevMP.Sprint6.Task3.V9.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            int[,] mas = new int[5, 5]
-            {
+            int[,] mas = new int[5, 5] {
                 { -14, 25, 26, 18, 17 },
                 { 28, 10, 6, -2, 4 },
                 { 30, 25, -3, 11, -10 },
